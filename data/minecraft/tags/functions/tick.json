@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "crpg:tick",
+    "crpg:wandering_trader/tick",
+    "crpg:steel_golem/tick",
+    "crpg:illusioner/tick",
+    "crpg:crate/tick"
+  ]
+}

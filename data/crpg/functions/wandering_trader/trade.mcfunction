@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:wandering_trader,tag=isWT,sort=nearest,limit=1,distance=..8] at @s if entity @e[type=minecraft:experience_orb,distance=..1] run function ve:wandering_trader/disappear
+advancement revoke @s only ve:trade

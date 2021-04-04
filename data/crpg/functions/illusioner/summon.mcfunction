@@ -1,0 +1,2 @@
+summon illusioner ~ ~ ~ {Tags:["crpgMob","illusioner","apex_predator"],HandItems:[{id:"minecraft:bow",Count:1b,tag:{display:{Name:'{"text":"Ethereal Bow","color":"yellow","italic":"false"}'},Enchantments:[{id:"minecraft:unbreaking",lvl:1s},{id:"minecraft:punch",lvl:4s},{id:"minecraft:infinity",lvl:1s}]}}],HandDropChances:[0.000F,0.085F],Health:300f,Attributes:[{Name:generic.max_health,Base:300},{Name:generic.attack_damage,Base:6}]}
+tp @s ~ ~-500 ~

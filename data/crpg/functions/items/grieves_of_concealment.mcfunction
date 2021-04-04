@@ -1,0 +1,3 @@
+execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots",tag:{invisibilityBoots:1b}}]}] at @s if score @s crpg.sneak matches 1.. run effect give @s minecraft:invisibility 1 1 true
+execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots",tag:{invisibilityBoots:1b}}]}] at @s if score @s crpg.sneak matches 1.. run effect give @s minecraft:weakness 1 99 true
+scoreboard players reset @a crpg.sneak

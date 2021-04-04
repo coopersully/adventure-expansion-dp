@@ -1,0 +1,2 @@
+summon minecraft:iron_golem ~ ~ ~ {Tags:["crpgMob","apex_predator","steel_golem"],DeathLootTable:"crpg:entities/steel_golem",CustomNameVisible:0b,CustomName:'{"text":"Steel Golem"}',Attributes:[{Name:generic.max_health,Base:600},{Name:generic.attack_damage,Base:40},{Name:generic.movement_speed,Base:0.15}]}
+tp @s ~ ~-500 ~
