@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:wolf,distance=..10] if data entity @s Owner run tag @s add tamed
+execute as @e[type=minecraft:wolf,tag=!tamed,distance=..10] at @s run function crpg:items/alpha_wolf/convert

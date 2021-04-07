@@ -1135,7 +1135,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Crystal Cutlass",
+                "text": "Flourishing Crystal Broadsword",
                 "color": "light_purple",
                 "italic": false
               },
@@ -1149,7 +1149,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Cracked Amethyst Blade",
+                "text": "Cracked Amethyst Heavyblade",
                 "color": "light_purple",
                 "italic": false
               },
@@ -1183,7 +1183,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
-                  "chance": 0.15
+                  "chance": 0.5
                 }
               ]
             },
@@ -1194,8 +1194,23 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "",
                   "amount": {
-                    "min": -1.25,
-                    "max": -1
+                    "min": -0.75,
+                    "max": -0.95
+                  },
+                  "operation": "multiply_base",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "",
+                  "amount": {
+                    "min": -0.45,
+                    "max": -0.75
                   },
                   "operation": "multiply_base",
                   "slot": "mainhand"
@@ -1209,8 +1224,8 @@
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
                   "amount": {
-                    "min": 6,
-                    "max": 9.25
+                    "min": 7.5,
+                    "max": 10.5
                   },
                   "operation": "addition",
                   "slot": "mainhand"

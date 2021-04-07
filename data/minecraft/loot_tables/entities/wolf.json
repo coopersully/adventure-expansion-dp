@@ -1,17 +1,22 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clock",
+          "name": "minecraft:player_head",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:\"MHF_Wolf\",alphaWolf:1b}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Soothe the mind, ease the soul.",
+                  "text": "A catalyst for the withering hounds.",
                   "color": "#C4A484",
                   "italic": true
                 },
@@ -24,12 +29,12 @@
                   "italic": false
                 },
                 {
-                  "text": " Magic Source",
+                  "text": " Living Source",
                   "color": "dark_green",
                   "italic": false
                 },
                 {
-                  "text": " Epic Treasure Item",
+                  "text": " Mythical Treasure Item",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -37,13 +42,13 @@
                   "text": ""
                 },
                 {
-                  "text": "When in Inventory:",
+                  "text": "Abilities:",
                   "color": "gray",
                   "italic": false
                 },
                 {
-                  "text": "+10 Max Health",
-                  "color": "blue",
+                  "text": " Nearby wolves are converted into Withering Hounds",
+                  "color": "dark_green",
                   "italic": false
                 }
               ]
@@ -51,14 +56,17 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Amulet of the Heart",
-                "color": "light_purple",
+                "text": "Head of the Alpha Wolf",
+                "color": "red",
                 "italic": false
               }
-            },
+            }
+          ],
+          "conditions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{heartAmulet:1b}"
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.002,
+              "looting_multiplier": 0.002
             }
           ]
         }

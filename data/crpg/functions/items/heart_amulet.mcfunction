@@ -1,0 +1,1 @@
+execute as @a[nbt={Inventory:[{tag:{heartAmulet:1b}}]}] run effect give @s minecraft:health_boost 1 2 true
