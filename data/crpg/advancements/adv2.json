@@ -1,0 +1,31 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Shadows and Forms"
+        },
+        "description": {
+            "text": "Create a piece of the Raider Set"
+        },
+        "icon": {
+            "item": "minecraft:iron_chestplate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Acquire item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{raiderSet:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "crpg:adv1"
+}

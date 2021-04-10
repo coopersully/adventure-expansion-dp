@@ -1,0 +1,31 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Corrupted Mimicry"
+        },
+        "description": {
+            "text": "Acquire a piece of the Traveler's set"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Acquire item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{travelerSet:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "crpg:root"
+}

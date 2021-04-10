@@ -971,7 +971,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Loud Chainmail Boots",
+                "text": "Slippery Chainmail Boots",
 				"color": "aqua",
                 "italic": false
               },
@@ -985,7 +985,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Clanky Metal Shoes",
+                "text": "Speedy Metal Shoes",
 				"color": "aqua",
                 "italic": false
               },
@@ -1042,13 +1042,13 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.follow_range",
+                  "attribute": "minecraft:generic.armor",
                   "name": "",
                   "amount": {
-                    "min": 0.5,
-                    "max": 1.5
+                    "min": -2,
+                    "max": -0.5
                   },
-                  "operation": "multiply_base",
+                  "operation": "addition",
                   "slot": "feet"
                 }
               ]
