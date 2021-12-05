@@ -1,0 +1,20 @@
+This pack adds treasure items with varying rarities:
+
+	- Common Treasure Item (White, Non-Colored, &f)
+		* Weight 300
+
+	- Uncommon Treasure Item (Yellow, &e)
+		* Weight 150
+
+	- Rare Treasure Item (Aqua, &b)
+		* Weight 50
+
+	- Epic Treasure Item (Light Purple, &d)
+		* Weight 10
+	
+	- Mythical Treasure Item (Red, &c)
+		* Weight 1
+
+	It also includes seperate categories of treasure items:
+	
+		- Ominous Treasure Item (Orange, &6, Pilalgers Only)

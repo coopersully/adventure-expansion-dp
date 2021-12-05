@@ -5,70 +5,15 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{SkullOwner:\"MHF_Wolf\",alphaWolf:1b}"
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "text": "A catalyst for the withering hounds.",
-                  "color": "#C4A484",
-                  "italic": true
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Statistics:",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": " Living Source",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": " Mythical Treasure Item",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Abilities:",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": " Nearby wolves are converted into Withering Hounds",
-                  "color": "dark_green",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Head of the Alpha Wolf",
-                "color": "red",
-                "italic": false
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance_with_looting",
-              "chance": 0.002,
-              "looting_multiplier": 0.002
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "crpg:entities/generic/wolf"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.002,
+          "looting_multiplier": 0.0002
         }
       ]
     }

@@ -2,11 +2,11 @@
   "pools": [
     {
       "rolls": {
-	    "min": 2,
-		"max": 4
-	  },
+        "min": 2,
+        "max": 4
+      },
       "entries": [
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
           "functions": [
@@ -19,7 +19,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
           "functions": [
@@ -32,7 +32,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "functions": [
@@ -45,7 +45,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:bone",
           "functions": [
@@ -58,7 +58,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
           "functions": [
@@ -71,7 +71,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:paper",
           "functions": [
@@ -84,7 +84,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
           "functions": [
@@ -157,7 +157,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
           "functions": [
@@ -202,7 +202,7 @@
               "enchantments": [
                 "minecraft:unbreaking",
                 "minecraft:knockback",
-				"minecraft:sharpness"
+                "minecraft:sharpness"
               ]
             },
             {
@@ -231,7 +231,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
           "functions": [
@@ -275,12 +275,12 @@
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:unbreaking",
-				"minecraft:protection"
+                "minecraft:protection"
               ]
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
           "functions": [
@@ -324,12 +324,12 @@
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:unbreaking",
-				"minecraft:protection"
+                "minecraft:protection"
               ]
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
           "functions": [
@@ -373,12 +373,12 @@
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:unbreaking",
-				"minecraft:protection"
+                "minecraft:protection"
               ]
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
           "functions": [
@@ -422,12 +422,12 @@
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:unbreaking",
-				"minecraft:protection"
+                "minecraft:protection"
               ]
             }
-			]
-		},
-		{
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
           "functions": [
@@ -470,13 +470,13 @@
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
-				"minecraft:projectile_protection",
-				"minecraft:blast_protection"
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
               ]
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
           "functions": [
@@ -519,13 +519,13 @@
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
-				"minecraft:projectile_protection",
-				"minecraft:blast_protection"
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
               ]
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_leggings",
           "functions": [
@@ -568,13 +568,13 @@
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
-				"minecraft:projectile_protection",
-				"minecraft:blast_protection"
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
               ]
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
           "functions": [
@@ -617,16 +617,16 @@
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
-				"minecraft:projectile_protection",
-				"minecraft:blast_protection"
+                "minecraft:projectile_protection",
+                "minecraft:blast_protection"
               ]
             }
-			]
-		},
-		{
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:air"
-		}
+        }
       ]
     }
   ]

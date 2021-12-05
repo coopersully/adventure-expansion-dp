@@ -65,12 +65,12 @@
         },
         {
           "type": "minecraft:loot_table",
-		  "weight": 10,
+          "weight": 10,
           "name": "crpg:crates/building_blocks/planks"
         },
         {
           "type": "minecraft:loot_table",
-		  "weight": 10,
+          "weight": 10,
           "name": "crpg:crates/building_blocks/stones"
         },
         {
@@ -117,7 +117,7 @@
         },
         {
           "type": "minecraft:loot_table",
-		  "weight": 10,
+          "weight": 10,
           "name": "crpg:crates/building_blocks/logs"
         },
         {

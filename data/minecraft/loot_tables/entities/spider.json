@@ -1,7 +1,9 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -10,13 +12,16 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 0,
                 "max": 2
-              }
+              },
+              "add": false
             },
             {
               "function": "minecraft:looting_enchant",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 0,
                 "max": 1
               }
@@ -27,6 +32,7 @@
     },
     {
       "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -35,13 +41,16 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": -1,
                 "max": 1
-              }
+              },
+              "add": false
             },
             {
               "function": "minecraft:looting_enchant",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 0,
                 "max": 1
               }
@@ -59,183 +68,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-		  "weight": 300,
-          "name": "minecraft:cobweb",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:spider_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "text": "A mysterious, squirmy little vessel.",
-                  "color": "#C4A484",
-                  "italic": true
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Statistics:",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": " Living Source",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": " Epic Treasure Item",
-                  "color": "dark_green",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Spider Egg",
-				"color": "light_purple",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Web-coverd Spider Egg",
-				"color": "light_purple",
-                "italic": false
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.15
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 50,
-          "name": "minecraft:fermented_spider_eye",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "text": "A sticky little spider part.",
-                  "color": "#C4A484",
-                  "italic": true
-                },
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Statistics:",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "text": " Living Source",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "text": " Rare Treasure Item",
-                  "color": "dark_green",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Spider Abdomen",
-                "color": "aqua",
-                "italic": false
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 1
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Webby Opisthosoma",
-                "color": "aqua",
-                "italic": false
-              },
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.25
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:generic.attack_speed",
-                  "name": "",
-                  "amount": {
-                    "min": 0.15,
-                    "max": 0.3
-                  },
-                  "operation": "multiply_base",
-                  "slot": "offhand"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:generic.attack_damage",
-                  "name": "",
-                  "amount": {
-                    "min": -0.15,
-                    "max": -2
-                  },
-                  "operation": "addition",
-                  "slot": "offhand"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "minecraft:generic.max_health",
-                  "name": "",
-                  "amount": {
-                    "min": 0,
-                    "max": 4
-                  },
-                  "operation": "addition",
-                  "slot": "offhand"
-                }
-              ]
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "name": "crpg:entities/generic/spider"
         }
       ],
       "conditions": [

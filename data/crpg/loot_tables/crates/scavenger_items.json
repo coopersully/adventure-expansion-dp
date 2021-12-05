@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-		  "weight": 3,
+          "weight": 3,
           "name": "minecraft:wooden_sword",
           "functions": [
             {
