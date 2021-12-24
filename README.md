@@ -21,4 +21,4 @@ This datapack adds several new items and item variants that players can find via
 	- These items almost always have unique and strong abilities.
 ### Miscellanious Rarities
 The datapack, similar to vanilla Minecraft, also includes seperate rarity categories that in no way determine the item's power level but are merely for decoration or categorical significance.
-	- Ominous Treasure Item (Orange, &6, Pillagers Only)
+- Ominous Treasure Item (Orange, &6, Pillagers Only)
