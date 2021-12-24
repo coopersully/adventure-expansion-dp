@@ -4,10 +4,14 @@
     {
       "rolls": 1,
       "entries": [
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:cow_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -60,10 +64,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:pig_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -116,10 +124,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:sheep_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -172,10 +184,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:bat_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -228,10 +244,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:chicken_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -284,10 +304,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:wolf_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -340,10 +364,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:spider_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -396,10 +424,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:cave_spider_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -452,10 +484,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:zombie_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -508,10 +544,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:skeleton_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -564,10 +604,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:drowned_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -620,10 +664,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:ocelot_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -676,10 +724,14 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:bee_spawn_egg",
           "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomName:\"\"}}"
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [

@@ -44,10 +44,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"aqua_affinity\",lvl:2},{id:\"respiration\",lvl:3},{id:\"mending\",lvl:1}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"aqua_affinity\",lvl:2},{id:\"respiration\",lvl:3},{id:\"mending\",lvl:1}]}"
+            }
           ]
         },
         {
@@ -90,10 +90,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"mending\",lvl:1}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"mending\",lvl:1}]}"
+            }
           ]
         },
         {
@@ -136,10 +136,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"mending\",lvl:1}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"mending\",lvl:1}]}"
+            }
           ]
         },
         {
@@ -182,10 +182,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"feather_falling\",lvl:4},{id:\"depth_strider\",lvl:3},{id:\"soul_speed\",lvl:3},{id:\"mending\",lvl:1}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,eternalSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:8},{id:\"feather_falling\",lvl:4},{id:\"depth_strider\",lvl:3},{id:\"soul_speed\",lvl:3},{id:\"mending\",lvl:1}]}"
+            }
           ]
         }
       ]

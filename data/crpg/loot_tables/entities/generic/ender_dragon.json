@@ -93,7 +93,7 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{RepairCost:100,enderShield:1b,Enchantments:[{id:\"minecraft:unbreaking\",lvl:6}],BlockEntityTag:{Base:15,Patterns:[{Pattern:flo,Color:2},{Pattern:mc,Color:2},{Pattern:mc,Color:15}]}}"
-			},
+            },
             {
               "function": "minecraft:set_attributes",
               "modifiers": [
@@ -101,9 +101,9 @@
                   "attribute": "minecraft:generic.armor",
                   "name": "",
                   "amount": {
-					"min": 3,
-					"max": 4
-				  },
+                    "min": 3,
+                    "max": 4
+                  },
                   "operation": "addition",
                   "slot": "offhand"
                 },
@@ -111,9 +111,9 @@
                   "attribute": "minecraft:generic.armor",
                   "name": "",
                   "amount": {
-					"min": 6,
-					"max": 8
-				  },
+                    "min": 6,
+                    "max": 8
+                  },
                   "operation": "addition",
                   "slot": "mainhand"
                 }

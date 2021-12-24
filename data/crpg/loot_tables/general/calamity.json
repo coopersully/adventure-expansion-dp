@@ -3,7 +3,7 @@
     {
       "rolls": 1,
       "entries": [
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
           "functions": [
@@ -112,7 +112,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:golden_pickaxe",
           "functions": [
@@ -214,7 +214,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
           "functions": [
@@ -316,7 +316,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:golden_shovel",
           "functions": [
@@ -418,7 +418,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:golden_hoe",
           "functions": [

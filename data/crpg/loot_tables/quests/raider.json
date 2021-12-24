@@ -44,10 +44,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
+            }
           ]
         },
         {
@@ -90,10 +90,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
+            }
           ]
         },
         {
@@ -136,10 +136,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
+            }
           ]
         },
         {
@@ -182,10 +182,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
+            }
           ]
         },
         {
@@ -228,10 +228,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"sharpness\",lvl:5},{id:\"fire_aspect\",lvl:2},{id:\"looting\",lvl:3},{id:\"sweeping\",lvl:3},{id:\"knockback\",lvl:3}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"sharpness\",lvl:5},{id:\"fire_aspect\",lvl:2},{id:\"looting\",lvl:3},{id:\"sweeping\",lvl:3},{id:\"knockback\",lvl:3}]}"
+            }
           ]
         },
         {
@@ -274,10 +274,10 @@
                 }
               ]
             },
-			{
-			  "function": "minecraft:set_nbt",
-			  "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"efficiency\",lvl:5},{id:\"silk_touch\",lvl:1}]}"
-			}
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{repairCost:100,raiderSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"efficiency\",lvl:5},{id:\"silk_touch\",lvl:1}]}"
+            }
           ]
         }
       ]

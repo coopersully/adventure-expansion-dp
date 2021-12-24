@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-		  "weight": 300,
+          "weight": 300,
           "name": "minecraft:cobweb",
           "functions": [
             {
@@ -54,7 +54,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Spider Egg",
-				"color": "light_purple",
+                "color": "light_purple",
                 "italic": false
               }
             },
@@ -62,7 +62,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Web-coverd Spider Egg",
-				"color": "light_purple",
+                "color": "light_purple",
                 "italic": false
               },
               "conditions": [

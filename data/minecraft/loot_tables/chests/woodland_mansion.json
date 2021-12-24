@@ -64,7 +64,7 @@
         },
         {
           "type": "minecraft:loot_table",
-		  "weight": 1,
+          "weight": 1,
           "name": "crpg:general/greed"
         }
       ]

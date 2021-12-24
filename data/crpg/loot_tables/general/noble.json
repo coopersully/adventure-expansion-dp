@@ -3,7 +3,7 @@
     {
       "rolls": 1,
       "entries": [
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:shield",
           "functions": [
@@ -154,7 +154,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:stone_sword",
           "functions": [
@@ -256,7 +256,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:stone_pickaxe",
           "functions": [
@@ -358,7 +358,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:stone_axe",
           "functions": [
@@ -460,7 +460,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:stone_shovel",
           "functions": [
@@ -562,7 +562,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:stone_hoe",
           "functions": [

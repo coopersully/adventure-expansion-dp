@@ -922,7 +922,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Slippery Chainmail Boots",
-				"color": "aqua",
+                "color": "aqua",
                 "italic": false
               },
               "conditions": [
@@ -936,7 +936,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Speedy Metal Shoes",
-				"color": "aqua",
+                "color": "aqua",
                 "italic": false
               },
               "conditions": [
@@ -950,7 +950,7 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Agile Bell-footed Boots",
-				"color": "aqua",
+                "color": "aqua",
                 "italic": false
               },
               "conditions": [

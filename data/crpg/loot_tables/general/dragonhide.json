@@ -3,7 +3,7 @@
     {
       "rolls": 1,
       "entries": [
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
           "functions": [
@@ -75,7 +75,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
           "functions": [
@@ -161,7 +161,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_leggings",
           "functions": [
@@ -247,7 +247,7 @@
             }
           ]
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
           "functions": [
