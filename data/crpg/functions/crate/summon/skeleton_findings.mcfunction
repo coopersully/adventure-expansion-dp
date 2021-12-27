@@ -1,0 +1,2 @@
+summon falling_block ~ ~ ~ {Tags:["crpgMob","crate"],BlockState:{Name:"minecraft:barrel"},TileEntityData:{LootTable:"crpg:crates/skeleton_findings",CustomName:'{"text":"Skeleton Remnants"}'},Time:1,DropItem:0b}
+spreadplayers ~ ~ 0 3 false @e[type=minecraft:falling_block,tag=crate,distance=..1]
