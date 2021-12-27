@@ -1,4 +1,4 @@
-![](https://i.imgur.com/Oj9Y3DO.png)
+![](https://i.imgur.com/2WdcNwM.png)
 Curse's RP Addon is a datapack for Minecraft: Java Edition that aims to change up the survival experience by adding roleplay-themed items, blocks, and mobs to the game. It modifies the loot pools of mobs in the game to better immerse the player in an open world, roleplay-ready environment. There are several changes and additions to the loot found in structures throughout all worlds, as well as a few new variations of mobs to encounter along the way.
 
 ## Treasure Items
