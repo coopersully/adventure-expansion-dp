@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 8,
-    "description": "Adds new roleplay-themed modifications to Minecraft"
+    "pack_format": 9,
+    "description": "Works in harmony with the \"Curse's RPG Loot\" spigot plugin."
   }
 }

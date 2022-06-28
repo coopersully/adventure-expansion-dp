@@ -1,2 +1,0 @@
-execute as @a[nbt={Inventory:[{Slot:-106b,tag:{enderShield:1b}}]}] at @s if score @s crpg.block matches 1.. run playsound minecraft:entity.ender_dragon.hurt player @s ~ ~ ~ 0.75 1.5
-scoreboard players reset @a crpg.block

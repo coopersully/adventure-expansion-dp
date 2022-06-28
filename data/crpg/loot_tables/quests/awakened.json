@@ -46,7 +46,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{repairCost:100,awakenedSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4},{id:\"aqua_affinity\",lvl:1},{id:\"respiration\",lvl:3}]}"
+              "tag": "{repairCost:100,awakenedSet:1b,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:awakened\": \"1\"},Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4},{id:\"aqua_affinity\",lvl:1},{id:\"respiration\",lvl:3}]}"
             }
           ]
         },
@@ -92,7 +92,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{repairCost:100,awakenedSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
+              "tag": "{repairCost:100,awakenedSet:1b,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:awakened\": \"1\"},Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
             }
           ]
         },
@@ -138,7 +138,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{repairCost:100,awakenedSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
+              "tag": "{repairCost:100,awakenedSet:1b,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:awakened\": \"1\"},Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4}]}"
             }
           ]
         },
@@ -184,7 +184,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{repairCost:100,awakenedSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4},{id:\"feather_falling\",lvl:4},{id:\"depth_strider\",lvl:3}]}"
+              "tag": "{repairCost:100,awakenedSet:1b,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:awakened\": \"1\"},Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"protection\",lvl:4},{id:\"feather_falling\",lvl:4},{id:\"depth_strider\",lvl:3}]}"
             }
           ]
         },
@@ -230,7 +230,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{repairCost:100,awakenedSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"sharpness\",lvl:9},{id:\"fire_aspect\",lvl:3},{id:\"looting\",lvl:3},{id:\"sweeping\",lvl:5},{id:\"knockback\",lvl:3},{id:\"mending\",lvl:1}]}"
+              "tag": "{repairCost:100,awakenedSet:1b,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:awakened\": \"1\"},Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"sharpness\",lvl:9},{id:\"fire_aspect\",lvl:3},{id:\"looting\",lvl:3},{id:\"sweeping\",lvl:5},{id:\"knockback\",lvl:3},{id:\"mending\",lvl:1}]}"
             }
           ]
         },
@@ -276,7 +276,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{repairCost:100,awakenedSet:1b,Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"efficiency\",lvl:5},{id:\"silk_touch\",lvl:2},{id:\"mending\",lvl:1}]}"
+              "tag": "{repairCost:100,awakenedSet:1b,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:awakened\": \"1\"},Enchantments:[{id:\"unbreaking\",lvl:4},{id:\"efficiency\",lvl:5},{id:\"silk_touch\",lvl:2},{id:\"mending\",lvl:1}]}"
             }
           ]
         }

@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:iron_golem,tag=steel_golem] at @s run effect clear @a[distance=..10] minecraft:levitation

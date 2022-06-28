@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:wandering_trader,tag=!notWT,sort=random] at @s run function crpg:wandering_trader/summon

@@ -1,2 +1,0 @@
-summon falling_block ~ ~ ~ {Tags:["crpgMob","crate"],BlockState:{Name:"minecraft:barrel"},TileEntityData:{LootTable:"crpg:crates/spider_findings",CustomName:'{"text":"Spider Debris"}'},Time:1,DropItem:0b}
-spreadplayers ~ ~ 0 3 false @e[type=minecraft:falling_block,tag=crate,distance=..1]

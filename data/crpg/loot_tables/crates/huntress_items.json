@@ -1,53 +1,53 @@
 {
-  "type": "minecraft:generic",
-  "pools": [
-    {
-      "rolls": {
-        "min": 5,
-        "max": 7
-      },
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/pig"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/cow"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/chicken"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/zombie"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/skeleton"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/spider"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/creeper"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/cave_spider"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/enderman"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/witch"
-        }
-      ]
-    }
-  ]
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": {
+				"min": 5,
+				"max": 7
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/pig"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/cow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/chicken"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/zombie"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/skeleton"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/creeper"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/cave_spider"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/enderman"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/witch"
+				}
+			]
+		}
+	]
 }

@@ -1,2 +1,0 @@
-execute as @e[type=minecraft:skeleton,tag=!not_steel_golem,sort=random] at @s run function crpg:steel_golem/check_summon
-execute as @e[type=minecraft:iron_golem,tag=steel_golem] at @s if entity @a[distance=..10] run function crpg:steel_golem/active

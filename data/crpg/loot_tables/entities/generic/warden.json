@@ -1,0 +1,114 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:repeating_command_block",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{wardenEar:1b,CustomModelData:4,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:warden\": \"1\", \"rpgloot:warden_ear\": \"1\"}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "Terrifying and coarse.",
+									"color": "#C4A484",
+									"italic": true
+								},
+								{
+									"text": ""
+								},
+								{
+									"text": "Statistics:",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": " Magic Source",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": " Uncommon Treasure Item",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": ""
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Warden's Ear",
+								"color": "yellow",
+								"italic": false
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:repeating_command_block",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{wardenHeart:1b,CustomModelData:5,PublicBukkitValues:{\"rpgloot:treasure_item\": \"1\", \"rpgloot:warden\": \"1\", \"rpgloot:warden_heart\": \"1\"}}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"text": "At long last it may rest.",
+									"color": "#C4A484",
+									"italic": true
+								},
+								{
+									"text": ""
+								},
+								{
+									"text": "Statistics:",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"text": " Magic Source",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": " Rare Treasure Item",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": ""
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Warden's Heart",
+								"color": "aqua",
+								"italic": false
+							}
+						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance_with_looting",
+							"chance": 0.25,
+							"looting_multiplier": 0.05
+						}
+					]
+				}
+			]
+		}
+	]
+}
