@@ -1,26 +1,32 @@
 <p align="center">
-  <img width="644" height="205" src="https://i.imgur.com/2WdcNwM.png">
+  <img src="https://i.imgur.com/2wY27We.png">
 </p>
-Curse's RP Addon is a datapack for Minecraft: Java Edition that aims to change up the survival experience by adding roleplay-themed items, blocks, and mobs to the game. It modifies the loot pools of mobs in the game to better immerse the player in an open world, roleplay-ready environment. There are several changes and additions to the loot found in structures throughout all worlds, as well as a few new variations of mobs to encounter along the way.
+
+# About the project
+**Curse's RPG Loot is a spigot plugin/datapack duo that aims to change up the survival experience by adding roleplay-themed weapons, armor, and mobs to the game.**
+It modifies loot pools of the generic Minecraft experience to better immerse the player in an open world, roleplay-ready environment. **By installing the plugin, it
+will automatically install all necessary dependencies & datapacks for the project to work properly, making the setup as easy as drag & drop.** There are several changesand additions to the loot found in structures throughout all worlds, as well as a few new variations of mobs to encounter along the way.
 
 ## Treasure Items
-This datapack adds several new items and item variants that players can find via exploration; these items are labeled "Treasure Items" and can be identified by their unique names, appearances, and "Statistics" tabs in their descriptions. With each treasure item, the color of the item's name determines it's rarity (and usu. it's power-level); the rarities in this datapack are an adaptation of Minecraft's own color-based rarities and are as follows:
-### Item Rarities
-1. Common Treasure Item (White, Non-Colored, &f)
-	- This item has the highest probability of dropping and is therefore the most common (300 weight).
-	- These items never have abilities.
-2. Uncommon Treasure Item (Yellow, &e)
-	- This item has the second highest probability of dropping (150 weight).
-	- These items usually have little to no abilities.
-3. Rare Treasure Item (Aqua, &b)
-	- This item has a medium probability of dropping (50 weight).
-	- Although not common, these items sometimes have unique abilities.
-4. Epic Treasure Item (Light Purple, &d)
-	- This item has the second lowest probability of dropping (10 weight).
-	- These items will regularly have unique abilities.
-5. Mythical Treasure Item (Red, &c)
-	- This item has the lowest probability of dropping and is therefore the least common (1 weight).
-	- These items almost always have unique and strong abilities.
-### Miscellanious Rarities
-The datapack, similar to vanilla Minecraft, also includes seperate rarity categories that in no way determine the item's power level but are merely for decoration or categorical significance.
-- Ominous Treasure Item (Orange, &6, Pillagers Only)
+The project adds several new items and item variants that players can find via exploration; these items are labeled **Treasure Items** and can be identified by their uniquely colored names, item descriptions, and **Statistics** tabs. Each treasure item has its own rarity value, indiciating how commonly it appears in the natural world; the rarities in this project are an adaptation of Minecraft's own color-based rarities (with a few additions) and are as follows:
+### General Item Rarities
+#### ⚪ Common Treasure Item (White, &f)
+- This type of item has the highest probability of dropping and is therefore the most common.
+- These items never have abilities.
+#### 🟢 Uncommon Treasure Item (Yellow, &e)
+- This type of item has the second highest probability of dropping.
+- These items usually have little to no abilities.
+#### 🔵 Rare Treasure Item (Aqua, &b)
+- This type of item has a medium probability of dropping.
+- Although not common, these items sometimes have unique abilities.
+#### 🟣 Epic Treasure Item (Light Purple, &d)
+- This type of item has the second lowest probability of dropping.
+- These items will regularly have unique abilities.
+#### 🔴 Mythical Treasure Item (Red, &c)
+- This type of item has the lowest probability of dropping and is therefore the least common.
+- These items almost always have unique and strong abilities.
+#### ⚫ Dark Rarity (Dark Gray, &7)
+- This type of item does not naturally generate in the world and can only be accessed via commands).
+- These items almost always have unique and strong abilities.
+
+It may be of use to note that similar to vanilla Minecraft, the project also includes seperate "cosmetic-rarity" categories that in no way determine the item's power level; these are merely for decoration or categorical significance and are usually found via special quests, trades, or mobs.
