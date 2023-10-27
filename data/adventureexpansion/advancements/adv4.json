@@ -1,0 +1,31 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Demiurge"
+        },
+        "description": {
+            "text": "Acquire a piece of the Eternal set"
+        },
+        "icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Acquire item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{eternalSet:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "adventureexpansion:adv3"
+}

@@ -16,7 +16,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "crpg:entities/generic/warden"
+					"name": "adventureexpansion:entities/generic/warden"
 				}
 			]
 		}
